@@ -8,10 +8,10 @@ module.exports = function (grunt) {
         },
         apidoc: {
             myapp: {
-                src: "",
+                src: "./test",
                 dest: "public/doc",
                 includeFilters: [ ".*\.js$" ],
-                excludeFilters: [ "node_modules/" ],
+                excludeFilters: [ ".*node_modules.*" ],
                 debug: false,
                 marked: {
                     gfm: true
