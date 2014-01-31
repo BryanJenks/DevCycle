@@ -14,3 +14,16 @@ exports.double = function (value) {
         throw new Error('Expected a number');
     }
 };
+
+/**
+ * @api {get} /api/triple Triples the value of a *number*
+ * @apiName triple
+ * @apiGroup api
+ */
+exports.triple = function (value) {
+    if (typeof value === 'number') {
+        return value * 3;
+    } else {
+        throw new Error('Expected a number');
+    }
+};
