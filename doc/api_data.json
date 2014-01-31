@@ -10,6 +10,15 @@
   },
   {
     "type": "get",
+    "url": "/api/quadruple",
+    "title": "quadruples the value of a *number*",
+    "name": "quadruple",
+    "group": "api",
+    "version": "0.0.0",
+    "filename": ".\\test\\api.js"
+  },
+  {
+    "type": "get",
     "url": "/api/triple",
     "title": "Triples the value of a *number*",
     "name": "triple",
@@ -26,13 +35,6 @@
   },
   {
     "type": "",
-    "url": "private",
-    "group": "application.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\application.js"
-  },
-  {
-    "type": "",
     "url": "public",
     "group": "application.js",
     "version": "0.0.0",
@@ -111,6 +113,13 @@
   {
     "type": "",
     "url": "public",
+    "group": "application.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\lib\\application.js"
+  },
+  {
+    "type": "",
+    "url": "private",
     "group": "application.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\lib\\application.js"
@@ -446,13 +455,6 @@
   },
   {
     "type": "",
-    "url": "private",
-    "group": "ejs.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\ejs\\ejs.js"
-  },
-  {
-    "type": "",
     "url": "public",
     "group": "ejs.js",
     "version": "0.0.0",
@@ -496,6 +498,13 @@
   {
     "type": "",
     "url": "public",
+    "group": "ejs.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\ejs\\lib\\ejs.js"
+  },
+  {
+    "type": "",
+    "url": "private",
     "group": "ejs.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\ejs\\lib\\ejs.js"
@@ -600,7 +609,7 @@
   },
   {
     "type": "",
-    "url": "private",
+    "url": "public",
     "group": "ejs.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\ejs\\lib\\ejs.js"
@@ -635,13 +644,6 @@
   },
   {
     "type": "",
-    "url": "public",
-    "group": "ejs.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\ejs\\lib\\ejs.js"
-  },
-  {
-    "type": "",
     "url": "private",
     "group": "ejs.js",
     "version": "0.0.0",
@@ -650,6 +652,13 @@
   {
     "type": "",
     "url": "public",
+    "group": "ejs.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\ejs\\ejs.js"
+  },
+  {
+    "type": "",
+    "url": "private",
     "group": "ejs.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\ejs\\ejs.js"
@@ -684,10 +693,10 @@
   },
   {
     "type": "",
-    "url": "public",
+    "url": "private",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
   },
   {
     "type": "",
@@ -698,248 +707,17 @@
   },
   {
     "type": "",
-    "url": "public",
+    "url": "private",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\batch\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
   },
   {
     "type": "",
     "url": "private",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
   },
   {
     "type": "",
@@ -971,6 +749,209 @@
   },
   {
     "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
     "url": "private",
     "group": "index.js",
     "version": "0.0.0",
@@ -978,6 +959,48 @@
   },
   {
     "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+  },
+  {
+    "type": "",
     "url": "private",
     "group": "index.js",
     "version": "0.0.0",
@@ -988,7 +1011,7 @@
     "url": "public",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\batch\\index.js"
+    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
   },
   {
     "type": "",
@@ -1009,14 +1032,7 @@
     "url": "public",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\bytes\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\batch\\index.js"
   },
   {
     "type": "",
@@ -1051,69 +1067,6 @@
     "url": "private",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\bytes\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "index.js",
-    "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\cookie-signature\\index.js"
   },
   {
@@ -1153,10 +1106,66 @@
   },
   {
     "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
+  },
+  {
+    "type": "",
     "url": "public",
     "group": "index.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\router\\index.js"
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\qs\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\bytes\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\bytes\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\node_modules\\batch\\index.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "index.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\commander\\index.js"
   },
   {
     "type": "",
@@ -1174,14 +1183,14 @@
   },
   {
     "type": "",
-    "url": "public",
+    "url": "private",
     "group": "junit.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\nodeunit\\lib\\reporters\\junit.js"
   },
   {
     "type": "",
-    "url": "private",
+    "url": "public",
     "group": "junit.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\nodeunit\\lib\\reporters\\junit.js"
@@ -1216,14 +1225,14 @@
   },
   {
     "type": "",
-    "url": "private",
+    "url": "public",
     "group": "logger.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\logger.js"
   },
   {
     "type": "",
-    "url": "public",
+    "url": "private",
     "group": "logger.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\logger.js"
@@ -1328,13 +1337,6 @@
   },
   {
     "type": "",
-    "url": "private",
-    "group": "nodeunit.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\examples\\browser\\nodeunit.js"
-  },
-  {
-    "type": "",
     "url": "public",
     "group": "nodeunit.js",
     "version": "0.0.0",
@@ -1350,6 +1352,13 @@
   {
     "type": "",
     "url": "private",
+    "group": "nodeunit.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\examples\\browser\\nodeunit.js"
+  },
+  {
+    "type": "",
+    "url": "public",
     "group": "nodeunit.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\nodeunit\\examples\\browser\\nodeunit.js"
@@ -1384,7 +1393,7 @@
   },
   {
     "type": "",
-    "url": "public",
+    "url": "private",
     "group": "nodeunit.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\nodeunit\\examples\\browser\\nodeunit.js"
@@ -1804,6 +1813,13 @@
   },
   {
     "type": "",
+    "url": "public",
+    "group": "send.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\send\\lib\\send.js"
+  },
+  {
+    "type": "",
     "url": "private",
     "group": "send.js",
     "version": "0.0.0",
@@ -1913,20 +1929,6 @@
     "group": "send.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\send\\lib\\send.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "send.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\send\\lib\\send.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "session.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
   },
   {
     "type": "",
@@ -1951,38 +1953,45 @@
   },
   {
     "type": "",
+    "url": "public",
+    "group": "session.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "session.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "session.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "session.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "session.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
+  },
+  {
+    "type": "",
     "url": "private",
     "group": "session.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "session.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "session.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "session.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "session.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\session.js"
   },
   {
     "type": "",
@@ -2007,24 +2016,31 @@
   },
   {
     "type": "",
-    "url": "private",
-    "group": "staticCache.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\staticCache.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "staticCache.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\staticCache.js"
-  },
-  {
-    "type": "",
     "url": "public",
     "group": "staticCache.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\staticCache.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "staticCache.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\staticCache.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "staticCache.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\staticCache.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "store.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\store.js"
   },
   {
     "type": "",
@@ -2043,13 +2059,6 @@
   {
     "type": "",
     "url": "public",
-    "group": "store.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\store.js"
-  },
-  {
-    "type": "",
-    "url": "private",
     "group": "store.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\middleware\\session\\store.js"
@@ -2084,21 +2093,21 @@
   },
   {
     "type": "",
-    "url": "public",
-    "group": "types.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\types.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "types.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\types.js"
-  },
-  {
-    "type": "",
     "url": "private",
+    "group": "types.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\types.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "types.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\types.js"
+  },
+  {
+    "type": "",
+    "url": "public",
     "group": "types.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\nodeunit\\lib\\types.js"
@@ -2115,14 +2124,7 @@
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
+    "filename": ".\\node_modules\\ejs\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2150,14 +2152,21 @@
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\ejs\\lib\\utils.js"
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
   },
   {
     "type": "",
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2185,7 +2194,7 @@
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2290,35 +2299,7 @@
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2326,34 +2307,6 @@
     "group": "utils.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\node_modules\\send\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "public",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2378,10 +2331,87 @@
   },
   {
     "type": "",
+    "url": "public",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\nodeunit\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+  },
+  {
+    "type": "",
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
     "filename": ".\\node_modules\\express\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "group": "utils.js",
+    "version": "0.0.0",
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
   },
   {
     "type": "",
@@ -2409,28 +2439,7 @@
     "url": "private",
     "group": "utils.js",
     "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
-  },
-  {
-    "type": "",
-    "url": "private",
-    "group": "utils.js",
-    "version": "0.0.0",
-    "filename": ".\\node_modules\\express\\lib\\utils.js"
+    "filename": ".\\node_modules\\express\\node_modules\\connect\\lib\\utils.js"
   },
   {
     "type": "",

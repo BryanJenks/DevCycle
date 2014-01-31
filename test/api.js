@@ -27,3 +27,17 @@ exports.triple = function (value) {
         throw new Error('Expected a number');
     }
 };
+
+
+/**
+ * @api {get} /api/quadruple quadruples the value of a *number*
+ * @apiName quadruple
+ * @apiGroup api
+ */
+exports.quadruple = function (value) {
+    if (typeof value === 'number') {
+        return value * 4;
+    } else {
+        throw new Error('Expected a number');
+    }
+};
