@@ -11,7 +11,7 @@
   {
     "type": "get",
     "url": "/api/quadruple",
-    "title": "quadruples the value of a *number*",
+    "title": "quadruples the value of a ~~number~~",
     "name": "quadruple",
     "group": "api",
     "version": "0.0.0",
@@ -20,7 +20,7 @@
   {
     "type": "get",
     "url": "/api/triple",
-    "title": "Triples the value of a *number*",
+    "title": "Triples the value of a _number_",
     "name": "triple",
     "group": "api",
     "version": "0.0.0",

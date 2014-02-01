@@ -16,7 +16,7 @@ exports.double = function (value) {
 };
 
 /**
- * @api {get} /api/triple Triples the value of a *number*
+ * @api {get} /api/triple Triples the value of a _number_
  * @apiName triple
  * @apiGroup api
  */
@@ -30,7 +30,7 @@ exports.triple = function (value) {
 
 
 /**
- * @api {get} /api/quadruple quadruples the value of a *number*
+ * @api {get} /api/quadruple quadruples the value of a ~~number~~
  * @apiName quadruple
  * @apiGroup api
  */
