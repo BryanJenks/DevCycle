@@ -19,6 +19,15 @@
   },
   {
     "type": "get",
+    "url": "/api/quintuple",
+    "title": "quintuple the value of a ~~number~~",
+    "name": "quintuple",
+    "group": "api",
+    "version": "0.0.0",
+    "filename": "test\\api.js"
+  },
+  {
+    "type": "get",
     "url": "/api/triple",
     "title": "Triples the value of a _number_",
     "name": "triple",

@@ -41,3 +41,16 @@ exports.quadruple = function (value) {
         throw new Error('Expected a number');
     }
 };
+
+/**
+ * @api {get} /api/quintuple quintuple the value of a ~~number~~
+ * @apiName quintuple
+ * @apiGroup api
+ */
+exports.quadruple = function (value) {
+    if (typeof value === 'number') {
+        return value * 5;
+    } else {
+        throw new Error('Expected a number');
+    }
+};
