@@ -1,4 +1,4 @@
-## To setup your development environment:
+### To setup your development environment:
 * Download and install [NodeJS](http://nodejs.org/download/)
 * You may want to edit your `path` environment variable in Windows to include `C:\Program Files\nodejs` so you can run node commands.
 * Launch the **Node.js command prompt**
@@ -22,7 +22,7 @@
 * add a _.gitignore_ file to the root of your project that contains `.idea` to skip WebStorm files from source control
 * add a _Gruntfile.js_ file to the root of your project that contains the documentation and automated testing configuration
 
-Maintaining your project:
+### Maintaining your project:
 * To list installed npm packages, run `npm ls`
 * To update _npm_,run `npm update npm -g`
 * To update locally installed packages, run `npm update`
