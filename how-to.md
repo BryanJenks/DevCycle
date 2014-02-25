@@ -1,7 +1,7 @@
 To setup your development environment:
 * Download and install [NodeJS](http://nodejs.org/download/)
 * You may want to edit your `path` environment variable in Windows to include `C:\Program Files\nodejs` so you can run node commands.
-* Launch the **NodeJS command prompt**
+* Launch the **Node.js command prompt**
 * run `npm install -g express` to install [ExpressJS](http://expressjs.com)
   (the `-g` switch will install it globally so the command line tools can be used.)
 * run `npm install -g nodeunit` for unit testing
