@@ -9,7 +9,7 @@ To setup your development environment:
 
 To create a new project:
 * Make a new directory for the project
-* Launch the **NodeJS command prompt**
+* Launch the **Node.js command prompt**
 * run `express -e` to create a new ExpressJS project.
   (This will use the ejs engine as opposed to Jade)
 * run `npm install` to download all dependencies.
