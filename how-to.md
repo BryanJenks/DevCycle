@@ -1,4 +1,4 @@
-To setup your development environment:
+## To setup your development environment:
 * Download and install [NodeJS](http://nodejs.org/download/)
 * You may want to edit your `path` environment variable in Windows to include `C:\Program Files\nodejs` so you can run node commands.
 * Launch the **Node.js command prompt**
@@ -7,7 +7,7 @@ To setup your development environment:
 * run `npm install -g nodeunit` for unit testing
 * run `npm install -g grunt` for automation
 
-To create a new project:
+### To create a new project:
 * Make a new directory for the project
 * Launch the **Node.js command prompt**
 * run `express -e` to create a new ExpressJS project.
